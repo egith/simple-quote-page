@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
+.intro-cover {
+    height: 100vh;
+    width: 100vw;
+    background-image: url(assets/freedom.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.intro-text {
+    padding: 6rem;
+    text-align: center;
+}
+
+.intro-text h1 {
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 2.5rem;
+}
+
+.intro-text h2 {
+    font-family: 'Crimson Text', serif;
+    font-style: italic;
+    font-size: 1.2rem;
+    padding-top: 3rem;
+}

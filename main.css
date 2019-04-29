@@ -2,6 +2,12 @@
     box-sizing: border-box;
 }
 
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
 .intro-cover {
     height: 100vh;
     width: 100vw;
@@ -11,18 +17,23 @@
 }
 
 .intro-text {
-    padding: 6rem;
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 4.5rem;
     text-align: center;
 }
 
-.intro-text h1 {
+h1 {
     font-family: 'Julius Sans One', sans-serif;
     font-size: 2.5rem;
+    line-height: 4rem;
+    font-weight: 400;
 }
 
-.intro-text h2 {
+h2 {
     font-family: 'Crimson Text', serif;
     font-style: italic;
-    font-size: 1.2rem;
-    padding-top: 3rem;
+    font-size: 1.3rem;
+    font-weight: normal;
+    line-height: 3rem;
 }
